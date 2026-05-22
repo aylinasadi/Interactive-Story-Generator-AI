@@ -45,7 +45,7 @@ Users can generate stories from a theme, track generation progress, and navigate
 
 ### Core Concept
 1. User submits theme (React frontend)
-2. POST request creates job in backend
+2. POST creates a StoryJob record and queues a background task to generate the story
 3. Backend queues async story generation
 4. AI service generates branching story tree
 5. Job status is polled every 3 seconds
