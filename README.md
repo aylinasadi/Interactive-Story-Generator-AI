@@ -144,7 +144,7 @@ Response:
 ---
 
 ### Fetch story
-GET `/stories/{story_id}`
+GET `/stories/{story_id}/complete`
 
 Returns full story tree structure with nodes and choices.
 
